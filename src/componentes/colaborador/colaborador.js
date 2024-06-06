@@ -3,7 +3,7 @@ import './colaborador.css'
 const Colaborador = (propriedades) => {
     return (
         <div className='colaborador'>
-            <div className='cabecalho'>
+            <div className='cabecalho' style={{backgroundColor: propriedades.corDeFundo}}>
                 <img src={propriedades.imagem} alt={propriedades.nome}/>
             </div>
             <div className='rodape'>

@@ -8,6 +8,8 @@ const Time = (propriedades) => {
             <h3 style={{ borderColor: propriedades.corPrimaria }}>{propriedades.nome}</h3>
             <div className='colaboradores'>
                 {propriedades.colaboradores.map(colaborador => <Colaborador
+                    corDeFundo={propriedades.corPrimaria}
+                    key={colaborador.nome}
                     nome={colaborador.nome}
                     cargo={colaborador.cargo}
                     imagem={colaborador.imagem}
