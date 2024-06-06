@@ -1,0 +1,30 @@
+.rodape{
+    background-color: #6278F7;
+    width: 100%;
+    
+}
+.rodape-rodape{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    height: 120px;
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    cursor: pointer;
+}
+
+.organo{
+    width: 70%;
+}
+
+.texto{
+    color: #fff;
+}
+/* .rodape .fundo {
+    width: 600%;
+} */
