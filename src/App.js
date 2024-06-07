@@ -1,4 +1,4 @@
-
+import './componentes/tituloApresentacao/titulo.css'
 import { useState } from 'react';
 import Banner from './componentes/banner/banner';
 import Formulario from './componentes/formulario/formulario.js';
@@ -55,7 +55,9 @@ function App() {
     <div className="App">
       <Banner />
       <Formulario times={times.map(time => time.nome)} aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)} />
-
+      <section className='titulo-a'>
+        <h1 className='titulo-apresen'>Minha Organização</h1>
+      </section>
       {times.map(time => <Time
         key={time.nome}
         nome={time.nome}

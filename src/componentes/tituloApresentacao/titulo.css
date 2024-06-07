@@ -1,0 +1,14 @@
+.titulo-a{
+    width: 100%;
+    text-align: center;
+}
+.titulo-apresen{
+    border-bottom: 4px solid #6278f7;
+    color: #6278f7;
+    display: inline-block;
+    font-size: 40px;
+    margin: 32px 0;
+    padding-bottom: 24px;
+    
+
+}
